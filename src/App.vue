@@ -1,18 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Say My Name" />
-  <Home />
+  <MyHome></MyHome>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import Home from "./components/Home.vue";
+import MyHome from "./components/MyHome.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    Home,
+    MyHome,
   },
 };
 </script>
